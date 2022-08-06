@@ -1,8 +1,8 @@
 #################### default parameters ################################
 favicon = "images/favicon.png"
-logo_text = "💰 PrizeDao"
-# logo = "images/logo.svg"
-# logo_width = "101px"
+logo_text = "💰 winSOL"
+logo = "images/winsol logo black font.png"
+logo_width = "350px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -16,13 +16,14 @@ contact_form_action = "#" # contact form works with https://formspree.io or form
 newsletter_form_action = "#" # contact form works with https://formspree.io or formspree alternative
 # custom script on header
 custom_script= ""
-
+table_of_content = true
 # page header background
 page_header= "images/page-header.webp"
 
 # Preloader
 [preloader]
 enable = true
+#preloader = "images/winsol logo .svg"
 
 # Navigation button
 [navigation_button]

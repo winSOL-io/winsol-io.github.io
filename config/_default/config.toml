@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://prizedao.github.io"
-title = "PrizeDAO - Sweep-Staking Solana Stake Pool - Premium Bonds on SOL"
-theme = "saasis"
+baseURL = "https://winsol.io"
+title = "winSOL - Sweep-Staking Solana Stake Pool - Premium Bonds on SOL"
+theme = ["saasis"]
 # post pagination
 paginate = "6"
 # post excerpt
@@ -12,6 +12,7 @@ googleAnalytics = "" # example : UA-123-45
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # disable language from here
+
 
 ############################# Imaging ##############################
 [imaging]
@@ -25,6 +26,11 @@ home = ["HTML", "RSS", "JSON", "WebAppManifest"]
 [markup.goldmark.renderer]
 unsafe= true
 
+[markup.tableOfContents]
+endLevel = 5
+ordered = false
+startLevel = 0
+
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
@@ -37,3 +43,4 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+

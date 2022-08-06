@@ -36,6 +36,8 @@ secondary_font_type = "" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
 
 
+assetDir= "assets"
+
 ############################# Plugins ##############################
 
 # CSS Plugins
@@ -50,6 +52,15 @@ link = "plugins/font-awesome/brands.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/solid.css"
 
+[[params.plugins.docs.css]]
+link = "docs/plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.docs.css]]
+link = "plugins/font-awesome/fontawesome.min.css"
+[[params.plugins.docs.css]]
+link = "plugins/font-awesome/brands.css"
+[[params.plugins.docs.css]]
+link = "plugins/font-awesome/solid.css"
+
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
@@ -59,3 +70,15 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/aos/aos.js"
+
+#[[params.plugins.js]]
+#link = "docs/plugins/jQuery/jquery.min.js"
+#[[params.plugins.js]]
+#link = "docs/plugins/scrollmenu/scrollmenu.min.js"
+#[[params.plugins.js]]
+#link = "docs/plugins/clipboard/clipboard.min.js"
+#[[params.plugins.js]]
+#link = "docs/plugins/featherlite/featherlite.min.js"
+#[[params.plugins.js]]
+#link = "docs/plugins/masonry/masonry.min.js"
+

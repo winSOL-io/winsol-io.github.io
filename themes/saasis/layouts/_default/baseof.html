@@ -19,8 +19,8 @@
 	<div class="main-content">
 		{{ partial "header.html" . }}
 
-		{{if and (not .IsHome) (ne .Section "blog") }}
-		{{ partial "page-header.html" . }}
+		{{if and (not .IsHome) (ne .Section "blog") (ne .Section "tease") }}
+		<!--{{ partial "page-header.html" . }}--><!--{{ partial "page-header.html" . }}-->
 		{{end}}
 		{{ block "main" . }}{{ end }}
 		

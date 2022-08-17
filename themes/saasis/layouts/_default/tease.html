@@ -168,6 +168,8 @@
   {{ end }}
   {{ end }}
 
+
+  {{ if .Params.pricing.enable }}
   {{ with site.GetPage "pricing" }}
   <section data-aos="fade">
     <div class="container">
@@ -201,6 +203,7 @@
       </div>
     </div>
   </section>
+  {{ end }}
   {{ end }}
 
   <!--{{ with site.GetPage "blog" }}
@@ -238,6 +241,8 @@
   </section>
   {{ end }}
 -->
+
+  {{ if .Params.faq.enable }}
   {{ with site.GetPage "faq" }}
   <section>
     <div class="container">
@@ -271,6 +276,7 @@
       </div>
     </div>
   </section>
+  {{ end }}
   {{ end }}
 
   {{ with site.GetPage "testimonials" }}

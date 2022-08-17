@@ -51,7 +51,7 @@ about_features:
 	<p>Each SOL - nay, every lamport you stake - stands a chance to win. Whether you stake 0.003 SOL or 3.2k SOL you're in with a chance, but the more you stake, the better your chances.</p>
 "
 
-  image: "images/safe-strongbox-safe_deposit_box-perspective.png"
+  image: "/images/safe-strongbox-safe_deposit_box-perspective.png"
 #  features_items:
 #  - title: "Client Projects"
 #    image: "images/features/01.webp"
@@ -61,4 +61,12 @@ about_features:
 #    image: "images/features/03.webp"
 #  - title: "Analytics Toolbox"
 #    image: "images/features/04.webp"
+deposit:
+  enable: true
+
+pricing:
+  enable: true
+
+faq:
+  enable: true
 ---

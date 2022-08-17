@@ -9,12 +9,15 @@
           <div class="pe-lg-5">
             <h1 class="banner-title text-capitalize mb-3">{{ .Title | markdownify }}</h1>
             <p>{{ .subtitle | markdownify }}</p>
+
+            {{ if .Params.deposit.enable }}
             <form action="{{.form_action}}" class="banner-form mt-4">
               <div class="input-group border p-2 rounded-sm">
                 <input type="text" class="form-control shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="{{ i18n `email_address` }}" aria-label="Email Address" aria-describedby="email-address">
                 <button type="submit" class="input-group-text btn btn-primary rounded" id="email-address-b">{{ i18n `get_started` }}</button>
               </div>
             </form>
+            {{ end }}
           </div>
         </div>
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
@@ -168,6 +171,7 @@
   {{ end }}
   {{ end }}
 
+  {{ if .Params.pricing.enable }}
   {{ with site.GetPage "pricing" }}
   <section data-aos="fade">
     <div class="container">
@@ -202,7 +206,7 @@
     </div>
   </section>
   {{ end }}
-
+  {{end }}
   <!--{{ with site.GetPage "blog" }}
   <section class="section" data-aos="fade">
     <div class="container">
@@ -238,6 +242,8 @@
   </section>
   {{ end }}
 -->
+
+  {{ if .Params.faq.enable }}
   {{ with site.GetPage "faq" }}
   <section>
     <div class="container">
@@ -271,6 +277,7 @@
       </div>
     </div>
   </section>
+  {{ end }}
   {{ end }}
 
   {{ with site.GetPage "testimonials" }}
@@ -311,6 +318,9 @@
     </div>
   </section>-->
   {{ end }}
+
+
+  {{ .Content }}
 
 </main>
 

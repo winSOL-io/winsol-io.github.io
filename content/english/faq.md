@@ -19,12 +19,12 @@ faq:
 "
 - title: "How can I verify prize payouts?"
   content: "Unlike most old gits, bErnie adores github, and will publish a report to his repo every time he sends out prizes. All transfers will be verifiable on chain."
-- title: "Is this Safu?"
+- title: "Is this Safe?"
   content: "<p>Yes ser. At all times your SOL is held in an account managed by Solana Lab's Stake Pool Program, and is untouchable by our devs. At any time you can unstake or exchange your winSOL and receive your SOL back. You'll never get out less SOL than you put in.</p>
 	
 	<p>Due to the way the Solana stake pool program works, you may need to wait until the end of the epoch to receive all your SOL. We plan to setup a liquidity pool in the near future that will allow an 'instant unstake' for a small fee, just as you can at Marinade and other stake pools.</p>
 "
-- title: "Is this some kind of ponzi casino?"
+- title: "Is this some kind of degen  casino?"
   content: "<p>Hell no. It is a fun game of chance, but you'll never make a loss in SOL terms. You can withdraw your SOL at any time.</p>
   <p>The only cost is opportunity cost - you could stake elsewhere for a guaranteed return, or stake here for the chance at an outsized one. You're not betting or risking anything, simply opting to give up your vanilla staking rewards to the pool for the chance of winning the pot.</p>
 	

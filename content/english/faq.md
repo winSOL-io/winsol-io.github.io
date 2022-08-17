@@ -5,7 +5,7 @@ draft: false
 _build:
   render: never
 
-image: "images/feature-image-3.webp"
+image: "images/bernie.png"
 
 faq:
 - title: "Who's bERNIE?"

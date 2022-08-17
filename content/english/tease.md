@@ -1,5 +1,7 @@
 ---
 layout: tease
+deposit: true
+
 type:
 ############################ Banner ##################################
 banner:
@@ -61,8 +63,6 @@ about_features:
 #    image: "images/features/03.webp"
 #  - title: "Analytics Toolbox"
 #    image: "images/features/04.webp"
-deposit:
-  enable: true
 
 pricing:
   enable: true

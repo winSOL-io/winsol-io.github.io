@@ -9,6 +9,7 @@
           <div class="pe-lg-5">
             <h1 class="banner-title text-capitalize mb-3">{{ .Title | markdownify }}</h1>
             <p>{{ .subtitle | markdownify }}</p>
+
             <form action="{{.form_action}}" class="banner-form mt-4">
               <div class="input-group border p-2 rounded-sm">
                 <input type="text" class="form-control shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="{{ i18n `email_address` }}" aria-label="Email Address" aria-describedby="email-address">
@@ -23,17 +24,22 @@
             {{$c_img:= $c_img.Resize "460x webp"}}
             <img loading="lazy" decoding="async" class="character jumping img-fluid" src="{{$c_img.RelPermalink}}" alt="character_image" width="{{$c_img.Width}}" height="{{$c_img.Height}}">
 
+            {{ if .lamp_image }}
             {{$lamp_image:= resources.Get (.lamp_image) }}
             {{$lamp_image:= $lamp_image.Resize "72x webp"}}
             <img loading="lazy" decoding="async" class="lamp img-fluid" src="{{$lamp_image.RelPermalink}}" alt="lamp_image" width="{{$lamp_image.Width}}" height="{{$lamp_image.Height}}">
+ {{end }}
+            {{ if .cube_image }}
 
             {{$cube_image:= resources.Get (.cube_image) }}
             {{$cube_image:= $cube_image.Resize "78x webp"}}
             <img loading="lazy" decoding="async" class="cube img-fluid" src="{{$cube_image.RelPermalink}}" alt="cube_image" width="{{$cube_image.Width}}" height="{{$cube_image.Height}}">
-
+{{ end }}
+            {{ if .chess_image }}
             {{$chess_image:= resources.Get (.chess_image) }}
             {{$chess_image:= $chess_image.Resize "72x webp"}}
             <img loading="lazy" decoding="async" class="chess img-fluid" src="{{$chess_image.RelPermalink}}" alt="chess_image" width="{{$chess_image.Width}}" height="{{$chess_image.Height}}">
+            {{end }}
           </div>
         </div>
       </div>
@@ -109,7 +115,10 @@
   </section>
   {{ end }}
   {{ end }}
-<!--
+
+
+  {{ if .Params.gallery }}
+
   {{ with site.GetPage "brands-logos" }}
   <section>
     <div class="container">
@@ -131,14 +140,15 @@
       </div>
     </div>
   </section>
-  {{ end }}-->
+  {{ end }}
+  {{end}}
 
   {{ if .Params.about_features.enable }}
   {{ with .Params.about_features }}
   <section>
     <div class="container">
       <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-lg-5 text-center" data-aos="fade-up">
+        <div class="col-lg-5 text-center">
           {{$img:= resources.Get (.image) }}
           {{$img:= $img.Resize "520x webp"}}
           <img loading="lazy" decoding="async" src="{{$img.RelPermalink}}" width="{{$img.Width}}" height="{{$img.Height}}" alt="features-image">
@@ -167,7 +177,6 @@
   </section>
   {{ end }}
   {{ end }}
-
 
   {{ if .Params.pricing.enable }}
   {{ with site.GetPage "pricing" }}

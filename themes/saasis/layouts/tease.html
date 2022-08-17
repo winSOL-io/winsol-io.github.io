@@ -20,23 +20,26 @@
             {{ end }}
           </div>
         </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-lg-6" >
           <div class="banner-image">
             {{$c_img:= resources.Get (.character_image) }}
             {{$c_img:= $c_img.Resize "460x webp"}}
             <img loading="lazy" decoding="async" class="character jumping img-fluid" src="{{$c_img.RelPermalink}}" alt="character_image" width="{{$c_img.Width}}" height="{{$c_img.Height}}">
-
+{{ if .lamp_image }}
             {{$lamp_image:= resources.Get (.lamp_image) }}
             {{$lamp_image:= $lamp_image.Resize "72x webp"}}
             <img loading="lazy" decoding="async" class="lamp img-fluid" src="{{$lamp_image.RelPermalink}}" alt="lamp_image" width="{{$lamp_image.Width}}" height="{{$lamp_image.Height}}">
-
+{{ end }}
+            {{ if .cube_image }}
             {{$cube_image:= resources.Get (.cube_image) }}
             {{$cube_image:= $cube_image.Resize "78x webp"}}
             <img loading="lazy" decoding="async" class="cube img-fluid" src="{{$cube_image.RelPermalink}}" alt="cube_image" width="{{$cube_image.Width}}" height="{{$cube_image.Height}}">
-
+{{end}}
+            {{ if .chess_image }}
             {{$chess_image:= resources.Get (.chess_image) }}
             {{$chess_image:= $chess_image.Resize "72x webp"}}
             <img loading="lazy" decoding="async" class="chess img-fluid" src="{{$chess_image.RelPermalink}}" alt="chess_image" width="{{$chess_image.Width}}" height="{{$chess_image.Height}}">
+            {{ end }}
           </div>
         </div>
       </div>
@@ -102,17 +105,18 @@
             {{ end }}
           </ul>
         </div>
-        <div class="col-lg-4 d-none d-lg-block" data-aos="fade-up">
+        <div class="col-lg-4 d-none d-lg-block" >
           {{$img:= resources.Get (.image) }}
           {{$img:= $img.Resize "500x webp"}}
-          <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="features image" width="{{$img.Width}}" height="{{$img.Height}}" data-aos="cool">
+          <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="features image" width="{{$img.Width}}" height="{{$img.Height}}">
         </div>
       </div>
     </div>
   </section>
   {{ end }}
   {{ end }}
-<!--
+{{ if .Params.gallery }}
+
   {{ with site.GetPage "brands-logos" }}
   <section>
     <div class="container">
@@ -134,14 +138,15 @@
       </div>
     </div>
   </section>
-  {{ end }}-->
+  {{ end }}
+  {{end}}
 
   {{ if .Params.about_features.enable }}
   {{ with .Params.about_features }}
   <section>
     <div class="container">
       <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-lg-5 text-center" data-aos="fade-up">
+        <div class="col-lg-5 text-center">
           {{$img:= resources.Get (.image) }}
           {{$img:= $img.Resize "520x webp"}}
           <img loading="lazy" decoding="async" src="{{$img.RelPermalink}}" width="{{$img.Width}}" height="{{$img.Height}}" alt="features-image">

@@ -1,12 +1,15 @@
 ---
 layout: tease
+
+gallery: true
+coins: false
 banner:
   title: "Vault Hunters NFT Collection"
   subtitle: "<p>The age of adventure has reached Solana. Vault Hunters are a collection of 1,234 famous explorers, adventurers, pirates and vagabonds about to hit the blockchain</p><p>Each vault hunter has been generated using the latest in AI technology, incorporating a range of rare and unusual attributes while offering a unique photorealistic style. With inspirations ranging from famous heroes, vagabonds, villans and plunderers from history and fiction, this is a PFP project like no other.</p>"
   character_image: "images/nfts/Portrait-of-African-Woman_Wearing-Hood_Character-Thief_Scene-Ocean_Mood-is-Gritty_Face-has-Raised-Eyebrow_Lookalike-Sacagawea_profile-shot_portrait-photo_photorealistic_1.jpg"
-  lamp_image: "images/gold-sol-coin.png"
-  cube_image: "images/gold-sol-coin.png"
-  chess_image: "images/gold-sol-coin.png"
+  #lamp_image: "images/gold-sol-coin.png"
+  #cube_image: "images/gold-sol-coin.png"
+  #chess_image: "images/gold-sol-coin.png"
   form_action: "#"
 
 ############################ About Info ##################################
@@ -47,4 +50,5 @@ faq:
   enable: false
 
 draft: false
+
 ---

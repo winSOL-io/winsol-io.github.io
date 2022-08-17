@@ -18,7 +18,7 @@
             </form>
           </div>
         </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-lg-6" >
           <div class="banner-image">
             {{$c_img:= resources.Get (.character_image) }}
             {{$c_img:= $c_img.Resize "460x webp"}}
@@ -105,10 +105,10 @@
             {{ end }}
           </ul>
         </div>
-        <div class="col-lg-4 d-none d-lg-block" data-aos="fade-up">
+        <div class="col-lg-4 d-none d-lg-block" >
           {{$img:= resources.Get (.image) }}
           {{$img:= $img.Resize "500x webp"}}
-          <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="features image" width="{{$img.Width}}" height="{{$img.Height}}" data-aos="cool">
+          <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="features image" width="{{$img.Width}}" height="{{$img.Height}}" >
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
           <div class="row g-4">
             {{ range .features_items }}
             <div class="col-sm-6">
-              <div class="rounded-sm border bg-white-blur p-4 text-center h-100" data-aos="cool">
+              <div class="rounded-sm border bg-white-blur p-4 text-center h-100" >
                 {{$img:= resources.Get (.image) }}
                 {{$img:= $img.Resize "50x webp"}}
                 <img loading="lazy" decoding="async" class="mb-3" src="{{$img.RelPermalink}}" alt="icon" width="{{$img.Width}}" height="{{$img.Height}}">
@@ -277,7 +277,7 @@
             {{end}}
           </div>
         </div>
-        <div class="col-lg-6 mt-5 mt-lg-0 text-center" data-aos="fade-up">
+        <div class="col-lg-6 mt-5 mt-lg-0 text-center" >
           {{$img:= resources.Get (.Params.image) }}
           {{$img:= $img.Resize "540x webp"}}
           <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="faq-image" width="{{$img.Width}}" height="{{$img.Height}}">

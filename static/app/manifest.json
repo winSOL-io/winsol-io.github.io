@@ -1,0 +1,203 @@
+{
+  "index.html": {
+    "file": "assets/index.edd5a0cb.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js"
+    ],
+    "dynamicImports": [
+      "src/pages/404.vue",
+      "src/pages/500.vue",
+      "src/pages/home.vue",
+      "src/pages/impressum.vue",
+      "src/pages/pool-info.vue",
+      "src/pages/privacy.vue",
+      "src/pages/terms.vue",
+      "src/layouts/default.vue"
+    ],
+    "css": [
+      "assets/index.e160b220.css"
+    ],
+    "assets": [
+      "assets/logo.ba3cfc84.svg",
+      "assets/Eva-Icons.f19a427f.woff2",
+      "assets/Eva-Icons.ba7db2a0.woff",
+      "assets/KFOkCnqEu92Fr1MmgVxIIzQ.a38ad0b6.woff",
+      "assets/KFOlCnqEu92Fr1MmSU5fBBc-.855a0697.woff",
+      "assets/KFOmCnqEu92Fr1Mu4mxM.ea50ac7f.woff",
+      "assets/KFOlCnqEu92Fr1MmEU9fBBc-.bd811625.woff",
+      "assets/KFOlCnqEu92Fr1MmWUlfBBc-.a01a632e.woff",
+      "assets/KFOlCnqEu92Fr1MmYUtfBBc-.d33864e0.woff",
+      "assets/arr-down.014fe801.svg",
+      "assets/bg-sol-part.57a594ce.svg"
+    ]
+  },
+  "_vendor.88348ce0.js": {
+    "file": "assets/vendor.88348ce0.js",
+    "dynamicImports": [
+      "node_modules/.pnpm/@blocto+sdk@0.2.22_@solana+web3.js@1.46.0/node_modules/@blocto/sdk/dist/blocto-sdk.module.js",
+      "node_modules/.pnpm/@ledgerhq+hw-transport-webhid@6.27.1/node_modules/@ledgerhq/hw-transport-webhid/lib-es/TransportWebHID.js",
+      "node_modules/.pnpm/@solflare-wallet+sdk@1.0.12_@solana+web3.js@1.46.0/node_modules/@solflare-wallet/sdk/lib/esm/index.js",
+      "node_modules/.pnpm/@project-serum+sol-wallet-adapter@0.2.6_@solana+web3.js@1.46.0/node_modules/@project-serum/sol-wallet-adapter/dist/esm/index.js"
+    ]
+  },
+  "node_modules/.pnpm/@solflare-wallet+sdk@1.0.12_@solana+web3.js@1.46.0/node_modules/@solflare-wallet/sdk/lib/esm/index.js": {
+    "file": "assets/index.37d52262.js",
+    "src": "node_modules/.pnpm/@solflare-wallet+sdk@1.0.12_@solana+web3.js@1.46.0/node_modules/@solflare-wallet/sdk/lib/esm/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js"
+    ]
+  },
+  "node_modules/.pnpm/@ledgerhq+hw-transport-webhid@6.27.1/node_modules/@ledgerhq/hw-transport-webhid/lib-es/TransportWebHID.js": {
+    "file": "assets/TransportWebHID.3950eb55.js",
+    "src": "node_modules/.pnpm/@ledgerhq+hw-transport-webhid@6.27.1/node_modules/@ledgerhq/hw-transport-webhid/lib-es/TransportWebHID.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js"
+    ]
+  },
+  "node_modules/.pnpm/@blocto+sdk@0.2.22_@solana+web3.js@1.46.0/node_modules/@blocto/sdk/dist/blocto-sdk.module.js": {
+    "file": "assets/blocto-sdk.module.e4d263d1.js",
+    "src": "node_modules/.pnpm/@blocto+sdk@0.2.22_@solana+web3.js@1.46.0/node_modules/@blocto/sdk/dist/blocto-sdk.module.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js"
+    ]
+  },
+  "src/pages/404.vue": {
+    "file": "assets/404.fcb08dd1.js",
+    "src": "src/pages/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ErrorContainer.70a1b73b.js",
+      "index.html",
+      "_vendor.88348ce0.js"
+    ]
+  },
+  "_ErrorContainer.70a1b73b.js": {
+    "file": "assets/ErrorContainer.70a1b73b.js",
+    "imports": [
+      "index.html",
+      "_vendor.88348ce0.js"
+    ],
+    "css": [
+      "assets/ErrorContainer.f3138727.css"
+    ]
+  },
+  "src/pages/500.vue": {
+    "file": "assets/500.d0c13850.js",
+    "src": "src/pages/500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ErrorContainer.70a1b73b.js",
+      "index.html",
+      "_vendor.88348ce0.js"
+    ]
+  },
+  "src/pages/home.vue": {
+    "file": "assets/home.be2d2afc.js",
+    "src": "src/pages/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor.88348ce0.js",
+      "_StackedAndLiquidity.f2e2789c.js",
+      "_CopyToClipboard.5c83a28e.js"
+    ],
+    "css": [
+      "assets/home.803efd8d.css"
+    ],
+    "assets": [
+      "assets/xsol.f8a4a2f0.svg",
+      "assets/no-wallet-icon.1c8a2e11.svg"
+    ]
+  },
+  "_StackedAndLiquidity.f2e2789c.js": {
+    "file": "assets/StackedAndLiquidity.f2e2789c.js",
+    "imports": [
+      "_CopyToClipboard.5c83a28e.js",
+      "_vendor.88348ce0.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/StackedAndLiquidity.54fe9a1b.css"
+    ],
+    "assets": [
+      "assets/ledger.7332c8b8.svg",
+      "assets/mathwallet.260c28e3.svg",
+      "assets/sol-gray-logo.56c2744f.svg",
+      "assets/no-wallet-icon.1c8a2e11.svg"
+    ]
+  },
+  "_CopyToClipboard.5c83a28e.js": {
+    "file": "assets/CopyToClipboard.5c83a28e.js",
+    "imports": [
+      "_vendor.88348ce0.js",
+      "index.html"
+    ]
+  },
+  "src/pages/impressum.vue": {
+    "file": "assets/impressum.c549cf1f.js",
+    "src": "src/pages/impressum.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js",
+      "index.html"
+    ]
+  },
+  "src/pages/pool-info.vue": {
+    "file": "assets/pool-info.79c2fb7a.js",
+    "src": "src/pages/pool-info.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_CopyToClipboard.5c83a28e.js",
+      "_vendor.88348ce0.js",
+      "index.html"
+    ]
+  },
+  "src/pages/privacy.vue": {
+    "file": "assets/privacy.1a1ffc3f.js",
+    "src": "src/pages/privacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js",
+      "index.html"
+    ]
+  },
+  "src/pages/terms.vue": {
+    "file": "assets/terms.c98548bc.js",
+    "src": "src/pages/terms.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js",
+      "index.html"
+    ]
+  },
+  "src/layouts/default.vue": {
+    "file": "assets/default.efb3e00e.js",
+    "src": "src/layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js",
+      "_StackedAndLiquidity.f2e2789c.js",
+      "_CopyToClipboard.5c83a28e.js",
+      "index.html"
+    ],
+    "css": [
+      "assets/default.517eca4e.css"
+    ],
+    "assets": [
+      "assets/app-logo.be0e784b.svg"
+    ]
+  },
+  "node_modules/.pnpm/@project-serum+sol-wallet-adapter@0.2.6_@solana+web3.js@1.46.0/node_modules/@project-serum/sol-wallet-adapter/dist/esm/index.js": {
+    "file": "assets/index.ddae8219.js",
+    "src": "node_modules/.pnpm/@project-serum+sol-wallet-adapter@0.2.6_@solana+web3.js@1.46.0/node_modules/@project-serum/sol-wallet-adapter/dist/esm/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.88348ce0.js"
+    ]
+  }
+}

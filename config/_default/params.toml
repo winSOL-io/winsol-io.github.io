@@ -13,7 +13,7 @@ email = "info@email.com"
 footer_info = ""
 # form action
 contact_form_action = "#" # contact form works with https://formspree.io or formspree alternative
-newsletter_form_action = "#" # contact form works with https://formspree.io or formspree alternative
+newsletter_form_action = "/app" # contact form works with https://formspree.io or formspree alternative
 # custom script on header
 custom_script= ""
 table_of_content = true
@@ -28,8 +28,8 @@ enable = true
 # Navigation button
 [navigation_button]
 enable = true
-label = "Connect Wallet"
-link = "#"
+label = "App"
+link = "/app"
 
 # cookies
 [cookies]

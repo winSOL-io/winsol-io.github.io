@@ -12,6 +12,12 @@
  weight = 2
 
 
+ [[main]]
+ name = "Vault Hunters NFT"
+ url = "nfts/"
+ weight = 2
+
+
 #
 # [[main]]
 # name = "How It Works"

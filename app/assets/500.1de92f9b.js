@@ -1,0 +1,1 @@
+import{_ as r}from"./ErrorContainer.b73fad11.js";import{_}from"./index.266e2c4d.js";import{aa as n,ab as e}from"./vendor.48cfb657.js";const c={};function t(a,s){const o=r;return n(),e(o)}var i=_(c,[["render",t]]);export{i as default};

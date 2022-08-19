@@ -31,9 +31,11 @@ about_features:
   title: "Post Mint"
   heading: "How will the mint proceeds be used?"
   description: "
-<p>The majority of mint proceeds (60%) will be used to bootstrap liquidity in the winSOL pool. This initial stake will be deposited into the pool, and will be excluded from the prize draw until the pool reaches 100,000 SOL in TVL. The winSOL tokens received by the mint wallet will then be locked in a StreamFlow vesting contract, with 25% unlocking after 6 months and the remainder releasing weekly for the following 6 months. </p> 
+<p>The majority of mint proceeds (60%) will be used to bootstrap liquidity in the winSOL pool. This initial stake will be deposited into the pool, and will be excluded from the prize draw until the pool reaches 100,000 SOL in TVL.</p> 
 
-<p>This means from the day the pool launches stakers stand to win a minimum of 10.5 SOL each week - a figure that can only rise as the total stake delegated to the pool increases. For example, should we reach the size of Marinade we'd be looking at a weekly giveaway of 312 SOL - every week.</p>
+<p>This means from the day the pool launches stakers stand to win a minimum of 10.5 SOL each week - a figure that can only rise as the total stake delegated to the pool increases. For example, should we reach the size of Marinade we'd be looking at a weekly giveaway of 312 SOL - every single week.</p>
+
+<p>To ensure the pool gets off to a healthy start, the winSOL received by the mint wallet will be locked in a Streamflow vesting contract for  12 months, with vesting starting after the 6th month. This way you know the pool will be producing substantial prizes throughout the early stages of growth.</p>
 
 <p>The rest of the mint will be spent as follows:
 <ul>
@@ -42,7 +44,7 @@ about_features:
 <li>10% for ongoing marketing</li>
 </ul></p>
 
-<a href='/docs/'>Check the roadmap</a> and more in our docs
+<a href='/docs/'>Check the roadmap and more in our docs</a>
 "
 
   image: "images/nfts/Portrait-of-African-Man_Wearing-Beret_Character-Pirate_Mood-is-Dark_Face-has-Tattoos_Lookalike-Abubakari_profile-shot_portrait-photo_photorealistic_0.jpg"

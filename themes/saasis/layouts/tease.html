@@ -10,6 +10,7 @@
             <h1 class="banner-title text-capitalize mb-3">{{ .Title | markdownify }}</h1>
             <p>{{ .subtitle | markdownify }}</p>
 
+<!--
             {{ if .Params.deposit.enable }}
             <form action="{{.form_action}}" class="banner-form mt-4">
               <div class="input-group border p-2 rounded-sm">
@@ -18,6 +19,7 @@
               </div>
             </form>
             {{ end }}
+-->
           </div>
         </div>
         <div class="col-lg-6" >
@@ -178,7 +180,7 @@
 
   {{ if .Params.pricing.enable }}
   {{ with site.GetPage "pricing" }}
-  <section data-aos="fade">
+  <section >
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-12">
@@ -200,7 +202,7 @@
               {{end}}
             </ul>
 
-            <a href="{{ `contact/` | relLangURL }}" class="btn btn-primary d-block">Get Started</a>
+            <a href="https://twitter.com/winsol_io" class="btn btn-primary d-block" target="_blank">Launching Soon</a>
           </div>
         </div>
         {{ end }}
@@ -274,7 +276,7 @@
             {{end}}
           </div>
         </div>
-        <div class="col-lg-6 mt-5 mt-lg-0 text-center" data-aos="fade-up">
+        <div class="col-lg-6 mt-5 mt-lg-0 text-center" >
           {{$img:= resources.Get (.Params.image) }}
           {{$img:= $img.Resize "540x webp"}}
           <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="faq-image" width="{{$img.Width}}" height="{{$img.Height}}">

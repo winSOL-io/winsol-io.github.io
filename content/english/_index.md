@@ -1,6 +1,8 @@
 ---
 layout: tease
 deposit: true
+aliases:
+ - /tease
 
 type:
 ############################ Banner ##################################
@@ -28,7 +30,7 @@ There's nothing to lose - your staked funds are safe and secured by Solana's aud
 <p>But by forgoing the standard staking rewards of 5-6%, you're in with a chance to win a great deal more.<p>"
 
   #image: "images/machine-fabric-company-manufacture-mass_produce.png"
-  image: "images/video_game-electronic_device-portable-display_screen-perspective.png"
+  image: "images/chest2.jpg"
   
   features_list:
   - "Enter a weekly draw to win the prize pool"
@@ -53,7 +55,7 @@ about_features:
 	<p>Each SOL - nay, every lamport you stake - stands a chance to win. Whether you stake 0.003 SOL or 3.2k SOL you're in with a chance, but the more you stake, the better your chances.</p>
 "
 
-  image: "/images/safe-strongbox-safe_deposit_box-perspective.png"
+  image: "/images/alchemist.jpg"
 #  features_items:
 #  - title: "Client Projects"
 #    image: "images/features/01.webp"

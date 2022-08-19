@@ -22,7 +22,7 @@ page_header= "images/page-header.webp"
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 #preloader = "images/winsol logo .svg"
 
 # Navigation button

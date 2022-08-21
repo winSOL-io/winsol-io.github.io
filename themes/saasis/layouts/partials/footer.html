@@ -1,4 +1,4 @@
-<footer class="section-bordered mb-0 mb-lg-5" data-aos="fade">
+<footer class="section-bordered mb-0 mb-lg-5" >
   <div class="container">
     <div class="row justify-content-between g-4">
       <div class="col-lg-4 mb-3">
@@ -13,7 +13,7 @@
         <p class="mt-4">{{site.Params.footer_info}}</p>
       </div>
       <div class="col-lg-6 col-9">
-        <div class="row g-4">
+        <!--<div class="row g-4">
           <div class="col-md-4 col-xs-6">
             <div class="footer-widget">
               <h3 class="h5 mb-4">{{ i18n `about`}}</h3>
@@ -44,7 +44,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
       <div class="col-lg-1 col-3">
         <div class="text-end">
@@ -69,7 +69,7 @@
       <div class="col-xxl-4 col-xl-5 mb-0 mb-xl-4">-->
         <ul class="list-unstyled list-inline mb-0 text-start text-xl-end display-5">
           {{range site.Params.social }}
-          <li class="list-inline-item me-3"><a class="text-dark" href="{{ .link }}" aria-label="social profile"><i class="{{ .icon }}"></i></a></li>
+          <li class="list-inline-item me-3"><a class="text-dark" href="{{ .link }}" aria-label="social profile" target="_blank"><i class="{{ .icon }}"></i></a></li>
           {{end}}
         </ul>
       </div>
